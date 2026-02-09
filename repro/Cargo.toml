@@ -1,0 +1,9 @@
+[package]
+name = "foobar"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+whisper-rs = { version = "0.15.1", features = ["vulkan"] }
+# Fixed:
+#whisper-rs = { version = "0.15", git = "https://codeberg.org/d-e-s-o/whisper-rs.git", rev = "5750626ae9cdf91a54af6acad4e35454e3cffac0" }
